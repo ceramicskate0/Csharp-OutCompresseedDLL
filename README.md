@@ -7,3 +7,5 @@ REF: https://github.com/PowerShellMafia/PowerSploit/blob/master/ScriptModificati
 
 
 This C# code will only output the base64 of the input file. It does not load or execute it. See https://github.com/ceramicskate0/SafetyKatz/tree/master/SafetyKatz for 1 way on how to do that.
+
+You want to pull it down from a web page see my https://github.com/ceramicskate0/dotNET_WebClient_Assembley for info on how to do that.
