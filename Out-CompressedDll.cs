@@ -12,7 +12,8 @@ namespace Out_CompressedDll
     {
         static void Main(string[] args)
         {
-            Out_CompressedDll(args[0], args[1]);
+            //You dont need main to have this work I have it here for testing you just need the Out_CompressedDll Method
+            Out_CompressedDll(args[0]);
         }
         private static void Out_CompressedDll(string FIlePath , string TemplatePath="")
         {
@@ -46,7 +47,7 @@ namespace Out_CompressedDll
             }
              */
 
-            if (File.Exists(FIlePath))
+            if (!File.Exists(FIlePath))
             {
                 throw new System.ArgumentException(FIlePath + " does not exist.");
             }
